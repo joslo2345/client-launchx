@@ -7,7 +7,13 @@
           <router-link to="/explorers" class="nav-link">Explorers</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/add" class="nav-link">Agregar Explorer</router-link>
+          <router-link to="/addexplorer" class="nav-link">Agregar Explorer</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to='/missioncommanders' class="nav-link">Mission Commanders</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/addmissioncommander" class="nav-link">Agregar Mission Commander</router-link>
         </li>
       </div>
     </nav>
