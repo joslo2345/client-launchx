@@ -1,5 +1,5 @@
 <template>
-<h4>Explorer</h4>
+<h4>Mission Commander</h4>
   <div v-if="currentMissionCommander" class="edit-form">
     <form>
       <div class="form-group">
@@ -19,15 +19,16 @@
         <input type="text" class="form-control" id="title"
           v-model="currentMissionCommander.missionCommander"
         />
-        <div class="form-group">
+      </div>
+      <div class="form-group">
         <label for="title">Enrollments</label>
-        <input type="text" class="form-control" id="title"
+        <input type="number" class="form-control" id="title"
           v-model="currentMissionCommander.enrollments"
         />
       </div>
     </form>
     <button class="btn btn-danger mr-2" @click="deleteMissionCommander">
-      Eliminar Explorer
+      Eliminar missionCommander
     </button>
     <button type="submit" class="btn btn-info mr-2" @click="updateMissionCommander">
       Actualizar
